@@ -1,10 +1,8 @@
 package com.belous.worker;
 
-import com.belous.juice.*;
+import com.belous.juice.JuicerResult;
+import com.belous.juice.JuicerSource;
 
-/**
- * Created by s.belous on 18.02.15.
- */
 public class MinCleaningsCountCalculationWorker implements JuiceMachineWorker {
 
     private MinCleaningCalculator minCleaningCalculator = new MinCleaningCalculatorImpl();

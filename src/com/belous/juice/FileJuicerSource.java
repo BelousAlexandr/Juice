@@ -2,13 +2,13 @@ package com.belous.juice;
 
 import com.belous.fruit.Fruit;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by s.belous on 18.02.15.
- */
 public class FileJuicerSource implements JuicerSource {
 
     private String fileName;

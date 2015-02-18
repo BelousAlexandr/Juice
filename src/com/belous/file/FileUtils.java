@@ -4,9 +4,6 @@ import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-/**
- * Created by s.belous on 18.02.15.
- */
 public class FileUtils {
 
     public static void write(String fileName, Object text) {

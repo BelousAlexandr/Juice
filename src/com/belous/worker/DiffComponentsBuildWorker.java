@@ -4,11 +4,10 @@ import com.belous.fruit.Fruit;
 import com.belous.juice.JuicerResult;
 import com.belous.juice.JuicerSource;
 
-import java.util.*;
+import java.util.Collections;
+import java.util.LinkedHashSet;
+import java.util.Set;
 
-/**
- * Created by s.belous on 18.02.15.
- */
 public class DiffComponentsBuildWorker implements JuiceMachineWorker {
     private Thread runningThread;
 

@@ -5,11 +5,10 @@ import com.belous.juice.JuicerResult;
 import com.belous.juice.JuicerSource;
 import com.belous.sort.SortFruitName;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
-/**
- * Created by s.belous on 18.02.15.
- */
 public class ComponentsSortWorker implements JuiceMachineWorker {
 
     private Thread runningThread;
