@@ -11,6 +11,12 @@ import java.util.Set;
 public class DiffComponentsBuildWorker implements JuiceMachineWorker {
     private Thread runningThread;
 
+    /**
+     * Processes juices source
+     *
+     * @param source source
+     * @param output output
+     */
     @Override
     public void process(final JuicerSource source, final JuicerResult output) {
         checkWorkerIsBusy();
