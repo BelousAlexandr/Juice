@@ -12,7 +12,7 @@ public class MinCleaningCalculatorImpl implements MinCleaningCalculator {
 
     private int[] res;
     private boolean[] usedJuices;
-    int[][] graphJuices;
+    private int[][] graphJuices;
 
     @Override
     public int calculateMinNumberOfCleanings(List<Juice> juices) {
@@ -65,7 +65,7 @@ public class MinCleaningCalculatorImpl implements MinCleaningCalculator {
         return answer;
     }
 
-    boolean getPair(int currentJuice, List<Juice> juices) {
+    private boolean getPair(int currentJuice, List<Juice> juices) {
         if (!usedJuices[currentJuice]) {
             return false;
         }
